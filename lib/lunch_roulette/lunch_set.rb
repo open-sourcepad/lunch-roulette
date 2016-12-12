@@ -8,6 +8,7 @@ class LunchRoulette
       @lunchers = staff.shuffle
       @groups = generate_groups
       @score = @groups.map{ |g| g.score}.sum
+      @score = @score.nan? ? 0 : @score
       @previous_lunches = {}
       previous_lunch_stats
       @valid = valid_set?

@@ -42,6 +42,7 @@ class LunchRoulette
         s = @people.map do |person|
           person.features[feature] / config.maxes[feature].to_f
         end.standard_deviation
+        s = s.nan? ? 0 : s
         [feature, s * config.weights[feature]]
       end
       @scores = Hash[*h.flatten]

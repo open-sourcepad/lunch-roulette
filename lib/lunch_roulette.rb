@@ -3,6 +3,7 @@ $:.push "./lib"
 require 'csv'
 require 'optparse'
 require 'yaml'
+require 'pry'
 require 'set'
 require 'digest'
 
@@ -22,7 +23,7 @@ class LunchRoulette
     options = Hash.new
     options[:most_varied_sets] = 1
 
-    o = OptionParser.new do |o|
+    OptionParser.new do |o|
       o.banner = "Usage: ruby lunch_roulette_generator.rb staff.csv [OPTIONS]"
       o.on('-n', '--min-group-size N', 'Minimum Lunch Group Size (default 4)') {|n| options[:min_lunch_group_size] = n.to_i }
       o.on('-i', '--iterations I', 'Number of Iterations (default 1,000)') {|i| options[:iterations] = i.to_i }
