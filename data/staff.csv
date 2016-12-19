@@ -11,7 +11,6 @@ user_id,name,email,start_date,table,team,specialty,lunchable,previous_lunches
 10,Gjimel Michael Suelto,michaels@sourcepad.com,3/21/2011,0,Engineering,,true,"7,12,26,37,43,54,56,69,84"
 11,Herald T. Dela Cruz,heraldr@sourcepad.com,1/4/2016,0,QA,qa,true,"1,15,21,31,45,47,62,74,85"
 12,Jedford Seculles,jeds@sourcepad.com,2/15/2010,0,Exec,hybrid,true,"10,11,30,32,39,52,56,68,82"
-13,John Norman D. Capule,normanc@sourcepad.com,7/8/2013,0,Engineering,,true,"10,16,22,34,45,50,65,71,77"
 14,Jonathan Andy S. Lim,andyl@sourcepad.com,8/9/2010,0,Engineering,mobile,true,"8,14,29,35,41,54,65,74,84"
 15,Joshua Noel C. Wines,joshuaw@sourcepad.com,10/25/2010,0,PM,hybrid,true,"2,13,26,35,42,49,58,69,83"
 16,Karl Patrick D. Custodio,karlc@sourcepad.com,10/21/2013,0,PM,pm,true,"6,14,24,32,45,48,60,74,81"
@@ -31,3 +30,4 @@ user_id,name,email,start_date,table,team,specialty,lunchable,previous_lunches
 30,Yana Viray,yanav@sourcepad.com,09/05/16,0,Engineering,,true,"49,61,66,76"
 31,Paul Raymond B. Manabat,prm@sourcepad.com,09/14/16,0,Engineering,,true,"60,68,79"
 32,Daryl Joe T. Yao,djy@sourcepad.com,11/16/2016,0,Engineering,,true,84
+33,Erik John Moreno,,01/16/2016,0,Engineering,,true,
